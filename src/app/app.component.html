@@ -1,14 +1,37 @@
 <h1>Angular Password Generator</h1>
 
-<label>Length<input></label>
+<div class="container">
+  <fieldset>
+    <legend>Settings</legend>
+    <div class="row">
+      <div class="input-group">
+        <label for="length">Length</label>
+        <input id="length" type="text" placeholder="Password Length" />
+      </div>
+    </div>
+    <div class="row">
+      <label>Use Letters<input type="checkbox" /></label>
+    </div>
+    <div class="row">
+      <label>Use Numbers<input type="checkbox" /></label>
+    </div>
+    <div class="row">
+      <label>Use Symbols<input type="checkbox" /></label>
+    </div>
+  </fieldset>
 
-<label>Use Letters<input type="checkbox"/></label>
+  <div class="row">
+    <div class="col-sm col-sm-offset-5">
+      <button>Generate</button>
+    </div>
+  </div>
 
-<label>Use Numbers<input type="checkbox"/></label>
-
-<label>Use Symbols<input type="checkbox"/></label>
-
-<button>Generate</button>
-
-<label>Your Password</label>
-<input>
+  <div class="row">
+    <!-- <div class="row">
+      <div class="col-sm col-sm-offset-5"><label>Your Password</label></div>
+    </div> -->
+    <!-- <div class="row"> -->
+      <div class="col-sm col-sm-offset-5"><input /></div>
+    <!-- </div> -->
+  </div>
+</div>
